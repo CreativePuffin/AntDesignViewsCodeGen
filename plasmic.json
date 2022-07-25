@@ -1,0 +1,68 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "785LmUYPoUm6pacfNyEDZ9",
+      "projectApiToken": "Nh1gkXvakFn72l1t8nizyAu7TG3xP8KpOUu9QrMok3j826i3kIO7iscjHzL6JkCzu7b71RNgDL3JQhkdMNfg",
+      "projectName": "AntDesign Views Wih Codegen",
+      "version": "latest",
+      "cssFilePath": "plasmic/ant_design_views_wih_codegen/plasmic_ant_design_views_wih_codegen.module.css",
+      "components": [
+        {
+          "id": "E1mRaAX6eSgl",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "785LmUYPoUm6pacfNyEDZ9",
+          "renderModuleFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "1lSa9OAn-eAji",
+        "name": "Screen",
+        "projectId": "785LmUYPoUm6pacfNyEDZ9",
+        "contextFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+}
