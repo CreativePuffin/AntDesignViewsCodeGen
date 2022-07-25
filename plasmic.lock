@@ -18,13 +18,23 @@
         },
         {
           "type": "renderModule",
-          "assetId": "E1mRaAX6eSgl",
-          "checksum": "0b9340d3f8d6b63708a3a27ff9e4d8b6"
+          "assetId": "xs87ByT3OU",
+          "checksum": "7d2aa1151e3619a9273fa4b07ab30f02"
         },
         {
           "type": "cssRules",
-          "assetId": "E1mRaAX6eSgl",
-          "checksum": "0b9340d3f8d6b63708a3a27ff9e4d8b6"
+          "assetId": "xs87ByT3OU",
+          "checksum": "7d2aa1151e3619a9273fa4b07ab30f02"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "-fKdY0THT-",
+          "checksum": "64d7cdb908e58ffa06437438c243cdfa"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "-fKdY0THT-",
+          "checksum": "64d7cdb908e58ffa06437438c243cdfa"
         }
       ],
       "codegenVersion": "0.0.1"
