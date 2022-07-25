@@ -2,6 +2,7 @@
 import * as React from 'react';
 import Script from 'next/script';
 import { PlasmicCanvasHost, registerComponent } from '@plasmicapp/host';
+import { DatePicker } from 'antd';
 
 // You can register any code components that you want to use here; see
 // https://docs.plasmic.app/learn/code-components-ref/
@@ -23,4 +24,10 @@ export default function PlasmicHost() {
     </div>
   );
 }
+
+registerComponent(DatePicker, {
+  name: 'antTable',
+  props: {
+  }, importPath: '@ant/DatePicker'
+});
     
