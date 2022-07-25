@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -29,15 +29,28 @@
       "cssFilePath": "plasmic/ant_design_views_wih_codegen/plasmic_ant_design_views_wih_codegen.module.css",
       "components": [
         {
-          "id": "E1mRaAX6eSgl",
-          "name": "Homepage",
+          "id": "xs87ByT3OU",
+          "name": "UserView",
           "type": "managed",
           "projectId": "785LmUYPoUm6pacfNyEDZ9",
-          "renderModuleFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicHomepage.tsx",
+          "renderModuleFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicUserView.tsx",
           "importSpec": {
-            "modulePath": "../pages/index.tsx"
+            "modulePath": "UserView.tsx"
           },
-          "cssFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicHomepage.module.css",
+          "cssFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicUserView.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-fKdY0THT-",
+          "name": "UserViewPage",
+          "type": "managed",
+          "projectId": "785LmUYPoUm6pacfNyEDZ9",
+          "renderModuleFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicUserViewPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/user-view-page.tsx"
+          },
+          "cssFilePath": "plasmic/ant_design_views_wih_codegen/PlasmicUserViewPage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -46,7 +59,13 @@
       "images": [],
       "indirect": false,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [
+        {
+          "id": "-uZM-JzB4m",
+          "name": "antTable",
+          "componentImportPath": "@ant/DatePicker"
+        }
+      ]
     }
   ],
   "globalVariants": {
